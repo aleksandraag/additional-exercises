@@ -1,0 +1,64 @@
+* div {
+  margin: 50px;
+  color: blueviolet;
+}
+
+.box {
+  height: 300px;
+  width: 50%;
+  background: #ffeb3b;
+  border: 5px solid red;
+}
+
+.paragraph {
+  border: 3px solid blue;
+  padding: 30px;
+  margin: 20px;
+}
+.container {
+  border: 12px inset fuchsia;
+  border-bottom: 4px solid pink;
+  outline: 6px solid yellow;
+}
+
+.second-container {
+  border: 4px dashed black;
+  margin: 20px;
+}
+.second-paragraph {
+  border: 30px groove red;
+  outline: 15px groove purple;
+  padding: 30px;
+  margin: 20px;
+
+}
+
+/* The following values are allowed:
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border */
+
+/* komentarz w css */
+
+
+.flex-parent {
+  width: 900px;
+  height: 200px;
+  display: flex;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.flex-item {
+  font-size: 25px;
+  background-color: orange;
+}
+

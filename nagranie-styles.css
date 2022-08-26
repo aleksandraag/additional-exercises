@@ -1,0 +1,15 @@
+.container {
+  border: 2px dashed black;
+}
+
+.paragraph {
+  border: 3px solid red;
+  margin: 20px;
+  
+}
+
+.box {
+    background: yellow;
+    height: 100px;
+    width: 100%;
+}
