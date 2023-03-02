@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ola Golińska" />
+    <meta
+      name="keywords"
+      content="ćwiczenia, html, css, vsc, pierwsza strona, mmc, exercise" />
+    <meta
+      name="description"
+      content="strona robocza na ćwiczenia z kursu html/css MMC school" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>MMC School</title>
+  </head>
+  <body>
+    <!-- body, div, nagłówki i paragrafy, tabele to elementy blokowe czyli zajmują całą dostępną szerokość ekranu a span to element liniowy więc może się ustawiać jeden obok drugiego -->
+    <div>To jest tekst w DIVie</div>
+    <div>To jest tekst w DIVie</div>
+    <p>To jest tekst w paragrafie</p>
+    <p>To jest tekst w paragrafie</p>
+    <p>To jest tekst w paragrafie</p>
+    <span>To jest tekst w spanie</span>
+    <span>SPAN</span>
+
+    <h1>Nagłówek H1</h1>
+    <h2>Nagłówek H2</h2>
+    <h3>Nagłówek H3</h3>
+    <h4>Nagłówek H4</h4>
+    <h5>Nagłówek H5</h5>
+    <h6>Nagłówek H6</h6>
+    <p class="p-h">A to je paragraf</p>
+
+    <a>Link</a>
+    <!-- <a href="https://google.pl">Google</a> -->
+    <a href="https://google.pl" target="_blank">Google</a>
+    <a href="https://mmcschool.pl" target="_blank" rel="noreferrer noopener"
+      >MMC</a
+    >
+
+    <!-- moze byc kilka headerow, tylko 1 main -->
+    <header></header>
+    <nav></nav>
+    <main>
+      <section>
+        <button>Kliknij mnie!</button>
+        <button disabled>Kliknij mnie!</button>
+        <form action="">
+          <label for="">Imię:</label>
+          <input type="text" />
+          <label for="">Wiadomość</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </form>
+        <select name="" id="">
+          <option value="">Czerwony</option>
+          <option value="">Niebieski</option>
+          <option value="" disabled>Zielony</option>
+        </select>
+
+        <input type="text" />
+        <input type="checkbox" checked />
+        <input type="checkbox" />
+        <input type="radio" />
+        <input type="radio" />
+        <input type="color" />
+        <input type="date" />
+        <input type="password" />
+      </section>
+      <section>
+        <!-- "del" używamy kiedy chcemy pokazać na stronie że coś jest usunięte (np przy aktualizowaniu info, wykreślamy starą ale ją zostawiamy tylko skreśloną a "s" sprostowanie przy błędzie w newsie. Ale del i s wyglądają tak samo) -->
+        <del
+          >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
+          necessitatibus.</del
+        >
+        <br />
+        <!-- "b" służy do pogrubienia to jeszcze z czasów jak nie było css, teraz lepiej to w css ostylować, a "strong" pogrubia + podnosi wartość semantyczną tekstu (podkreśla że na to warto zwrócić uwagę) -->
+        <s>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</s> <br />
+        <b>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</b> <br />
+        <strong
+          >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong
+        >
+        <br />
+        <!-- "i" od italics obecnie mamy już css do tego, a "em" podnosi wartość semantyczną i zwraca uwagę że to jest ważne -->
+        <i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</i> <br />
+        <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em>
+        <br />
+        <!-- to też powinniśmy robić w css  -->
+        <u>Lorem ipsum dolor sit, amet consectetur adipisicing.</u>
+        <!-- Podsumowując:
+        strong, em - semantyka (podkreśla ważność)
+      b, u, i - CSS -->
+
+        <p class="p-h">
+          Lorem ipsum
+          <mark> dolor sit amet consectetur, adipisicing elit.</mark> Quaerat
+          necessitatibus tempora facilis voluptas veritatis incidunt.
+        </p>
+        <br />
+        <p class="p-h">2<sup>2</sup>=4</p>
+        <p class="p-h">H<sub>2</sub>O</p>
+        <br />
+        <p class="p-h">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, cum!
+        </p>
+        <pre>
+Lorem                    ipsum dolor sit amet consectetur adipisicing elit.
+           Iste, perferendis.</pre
+        >
+        <br />
+        <p class="p-h">
+          Lorem &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ipsum dolor sit
+          amet consectetur adipisicing elit. Esse, soluta!
+        </p>
+
+        <ol class="list">
+          <li>Pozycja 1</li>
+          <li>Pozycja 2</li>
+          <li>Pozycja 3</li>
+        </ol>
+
+        <ul class="list">
+          <li>Pozycja 1</li>
+          <li>Pozycja 2</li>
+          <li>Pozycja 3</li>
+        </ul>
+      </section>
+    </main>
+    <aside></aside>
+    <footer></footer>
+  </body>
+</html>

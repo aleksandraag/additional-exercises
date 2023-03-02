@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 80px;
+  font-size: 36px;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: #333;
+}
+
+p {
+  color: #fff;
+  font-size: 60px;
+}
+
+/* EMMET W CSS */
+
+p {
+  /* m10 */
+  margin: 10px;
+
+  /*  m10-20*/
+  margin: 10px 20px;
+
+  /* p10 */
+  padding: 10px;
+
+  /* p-10 */
+  padding: -10px;
+
+  /* p-10-20 */
+  padding: -10px 20px;
+
+  /* p-10--20 */
+  padding: -10px -20px;
+
+  /* m10p */
+  margin: 10%;
+
+  /* fz20 */
+  font-size: 20px;
+
+  /* fz20e ; fz20r */
+  font-size: 20em;
+  font-size: 20rem;
+
+  /* c#f */
+  color: #fff;
+
+  /* bgc#123 */
+  background-color: #123;
+
+  /* posa */
+  position: absolute;
+
+  /* posf */
+  position: fixed;
+
+  /* t0 */
+  top: 0;
+
+  /* b20 */
+  bottom: 20px;
+
+  /* w100p */
+  width: 100%;
+
+  /* h300 */
+  height: 300px;
+
+  /* p pl m mt */
+  padding: 10px;
+  padding-left: 40px;
+  margin: 7px;
+  margin-top: 80px;
+  
+  /* oh */
+  overflow: hidden;
+  
+  /* cup */
+  cursor: pointer;
+
+  /* tt */
+  text-transform: uppercase;
+
+  /* tac tar*/
+  text-align: center;
+  text-align: right;
+
+  /* db dib df*/
+  display: block;
+  display: inline-block;
+  display: flex;
+
+  /* fwb */
+  font-weight: bold;
+}
